@@ -1,4 +1,4 @@
-# Search From - Component
+# Search Form - Component
 
 Dimensions: 984x400px
 
