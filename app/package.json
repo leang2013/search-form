@@ -1,0 +1,51 @@
+{
+    "name": "search-form",
+    "version": "0.2.0",
+    "private": true,
+    "author": "Leandro Martinez <leang.martinez@gmail.com>",
+    "contributors": [
+      "Leandro Martinez <leang.martinez@gmail.com>"
+    ],
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "axios": "^0.19.2",
+      "match-sorter": "^4.1.0",
+      "prop-types": "^15.7.2",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-scripts": "5.0.1"
+    },
+    "scripts": {
+      "start": "PORT=3005 react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
+      "lint:fix": "eslint --fix --ext .js,.jsx ."
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "eslint-config-airbnb": "^18.2.0",
+      "eslint-plugin-import": "^2.22.0"
+    }
+  }
+  

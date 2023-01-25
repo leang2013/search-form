@@ -1,0 +1,45 @@
+.box {
+    display: flex;
+    padding-top: 40px;
+    gap: 15px;
+}
+
+.container {
+    background: linear-gradient(to right, rgba(78,137,140,0.9), rgba(48,106,107, 0.8), rgba(29,81,81,0.7), rgba(71,115,57,0.4), rgba(71,115,57,1)), url('../../assets/background.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: 25% 50%;
+    width: 984px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 65px 29px 40px 30px;
+}
+
+.title {
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 2.3em;
+}
+
+.dropdownActivator {
+    align-items: center;
+    background-color: #cbd903;
+    border: none;
+    height: 100%;
+    color: black;
+    letter-spacing: 1.1px;
+    display: flex;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 18%);
+    font-weight: 600;
+  }
+
+.search {
+    height: 40px;
+  }
